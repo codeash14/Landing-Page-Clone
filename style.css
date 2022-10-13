@@ -128,6 +128,7 @@ hr-d {
     word-wrap: inherit;
     line-height: 15px;
     margin-top: -15px;
+    padding: 0;
 }
 
 .content p.subheading {
@@ -138,6 +139,33 @@ hr-d {
     color: #979797;
     text-align: right;
 }
+
+.list-items img{
+    height: 250px;
+    width: 350px;
+}
+
+@media only screen and (min-width: 768px) 
+{.list-items{
+    width: 350px;
+}
+}
+
+@media only screen and (max-width: 768px){
+    .content p.heading {
+        padding: 0 60px;
+    }
+    #header h1{
+        font-size: 30px;
+        line-height: 1.5;
+    }
+}
+
+.work-items img{
+    width: 350px;
+    height: 250px;
+}
+
 
 .btn-success {
     background-color: #73c9be;
